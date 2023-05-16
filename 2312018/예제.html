@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my first example</title>
+        <mata charset="utf-8">
+    </head>
+    <body>
+        <h1>상품주문서</h1>
+        <form>
+            <fieldset>
+                <legend>개인정보</legend>
+                <label>이름</label><input type="text" placeholder="여백없이"><br>
+                <label>연락처</label><input type="text" placeholder="연락가능한 휴대폰"><br>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>배송지정보</legend>
+                <label>주소</label><input type="text" maxlength="20"><br>
+                <label>전화번호</label><input type="text" readonly value="010">-<input type="text" number>-<input type="text" number><br>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>주문정보</legend>
+                <label><input type="radio" checked>사과 :</label><input type="text" number>개<br>
+                <label><input type="radio">배 :</label><input type="text" number>개<br>
+            </fieldset>
+            <input type="submit" value="주문하기"><br>
+        </form>
+    </body>
+</html>
